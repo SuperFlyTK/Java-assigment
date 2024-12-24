@@ -3,14 +3,12 @@ class Customer {
     private String name;
     private String email;
 
-    // Constructor
     public Customer(int id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
     }
 
-    // Getter and Setter methods
     public int getId() {
         return id;
     }
@@ -35,7 +33,6 @@ class Customer {
         this.email = email;
     }
 
-    @Override
     public String toString() {
         return "Customer{" +
                 "id=" + id +
