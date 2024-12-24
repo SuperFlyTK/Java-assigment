@@ -4,7 +4,6 @@ class Order {
     private Item item;
     private int quantity;
 
-    // Constructor
     public Order(int id, Customer customer, Item item, int quantity) {
         this.id = id;
         this.customer = customer;
@@ -12,7 +11,6 @@ class Order {
         this.quantity = quantity;
     }
 
-    // Getter and Setter methods
     public int getId() {
         return id;
     }
